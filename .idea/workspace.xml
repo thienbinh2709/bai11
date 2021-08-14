@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="399d80ab-b36c-454b-8de4-9b32c6b186a5" name="Default Changelist" comment="" />
+    <list default="true" id="399d80ab-b36c-454b-8de4-9b32c6b186a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,19 +40,6 @@
       <recent name="G:\NotJs\bai1\src\resources\views" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +52,7 @@
       <workItem from="1628623306265" duration="650000" />
       <workItem from="1628624239069" duration="1838000" />
       <workItem from="1628980073342" duration="500000" />
-      <workItem from="1628981025307" duration="322000" />
+      <workItem from="1628981025307" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="as">
       <created>1628546613214</created>
