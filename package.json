@@ -2,9 +2,11 @@
   "name": "bai1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "lamdep": "lint-staged",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss/app.scss --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,13 +16,23 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thienbinh2709/bai1/issues"
+    "url": "https://github.com/thienbinh2709/bai11/issues"
   },
   "homepage": "https://github.com/thienbinh2709/bai1#readme",
+  "lint-staged": {
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "mongodb": "^4.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
   }
 }
