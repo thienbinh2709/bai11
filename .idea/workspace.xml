@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="399d80ab-b36c-454b-8de4-9b32c6b186a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/NewsController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/img/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/views/home.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/views/layouts/main.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/views/news.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/views/partials/footer.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/views/partials/header.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/views/search.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="399d80ab-b36c-454b-8de4-9b32c6b186a5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +63,7 @@
       <workItem from="1628623306265" duration="650000" />
       <workItem from="1628624239069" duration="1838000" />
       <workItem from="1628980073342" duration="500000" />
+      <workItem from="1628981025307" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="as">
       <created>1628546613214</created>
@@ -92,11 +72,36 @@
       <option name="project" value="LOCAL" />
       <updated>1628546613214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="as">
+      <created>1628981138354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628981138354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="as">
+      <created>1628981242035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628981242035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="as" />
