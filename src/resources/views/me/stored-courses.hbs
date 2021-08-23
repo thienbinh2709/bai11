@@ -1,0 +1,98 @@
+<table class="table mt-4">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">
+        Tên khóa học
+      </th>
+      <th scope="col">
+        Cấp độ
+      </th>
+      <th scope="col">
+        Thời gian tạo
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each courses}}
+      <tr>
+        <th scope="row">
+          {{sum @index 1}}
+        </th>
+        <td>
+          {{this.name}}
+        </td>
+        <td>
+          {{this.description}}
+        </td>
+        <td>
+          {{this.slug}}
+        </td>
+        <td>
+          <a href="/courses/{{this._id}}/edit" class="btn btn-success">
+            Sửa
+          </a>
+          <a
+            href="/courses/{{this._id}}/delete"
+            class="btn btn-danger mt-2"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModalLabel"
+            data-id="{{this._id}}"
+          >
+            Xóa
+          </a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+{{! delete }}
+<div
+  class="modal fade"
+  id="exampleModalLabel"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabelLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabelLabel">
+          Xóa khóa học
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        Bạn có chắc chắn muốn xóa khóa học này
+      </div>
+      <div class="modal-footer">
+        <button id="btn-delete-course" type="button" class="btn btn-danger">
+          Xóa
+        </button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+          Đóng
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<form method="POST" name="delete-from"></form>
+<script>
+  var deleteFrom = document.forms['delete-from'];
+  var exampleModalLabel = document.getElementById('exampleModalLabel');
+  var btnDeleteCourse = document.getElementById('btn-delete-course');
+  var id;
+  exampleModalLabel.addEventListener('show.bs.modal', function (event) {
+    var button = event.relatedTarget;
+    id = button.getAttribute('data-id');
+  })
+  btnDeleteCourse.onclick = function () {
+      deleteFrom.action = '/courses/'+id+'?_method=DELETE';
+      deleteFrom.submit();
+  }
+</script>
